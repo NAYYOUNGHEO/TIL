@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {border:1px solid;}
+        img {float:left;}
+        .clearfix::after{
+            content:"";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div style="overflow: auto;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzwmRqJZA6tFx-GzSHoqpt6amSR__7SUXIa1Nqt6iIrAL_pTEb3Eu-1I7A8gsa1bOBByo&usqp=CAU" width="100px">
+        1st Line<br>2nd Line
+    </div>
+    <div stle="clear: both;">
+        Next DIV!
+    </div>
+</body>
+</html>
