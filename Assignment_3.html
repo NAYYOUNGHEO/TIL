@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div-parent div { height:100px; float:left; border:1px solid;}
+
+        .album::after {
+            content: "";
+            clear : both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-parent album">
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW084jI1RGR0HvHiW2YVJe2OTmA_Cqtms0zDg3cchUPGejeeTQ-rVH0YkvO-_p63hBD9w&usqp=CAU"><p>Image 1</p></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXuzSLw8xD1P-_D95UUFvXVhqCSW5NtBndJA&usqp=CAU"><p>Image 2</p></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDrPSTlTU1S5Nu2c1yMG7PwBtK-4l2uBOMrQ&usqp=CAU"><p>Image 3</p></div>
+    </div>
+</body>
+</html>
